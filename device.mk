@@ -318,7 +318,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-voltage
+    $(LOCAL_PATH)/overlay-404
 
 # Permissions
 PRODUCT_COPY_FILES += \
