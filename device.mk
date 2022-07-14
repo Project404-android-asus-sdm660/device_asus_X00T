@@ -87,6 +87,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
 # QTI Bluetooth
+-include vendor/qcom/common/bt/bt-vendor.mk
 include vendor/qcom/opensource/commonsys-intf/bluetooth/bt-commonsys-intf-board.mk
 $(callinherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
 
@@ -390,7 +391,8 @@ PRODUCT_PACKAGES += \
 
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
-    perf
+   bt \
+   perf
 
 # QTI Performance
 PRODUCT_COPY_FILES += \
