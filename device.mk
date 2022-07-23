@@ -398,7 +398,8 @@ PRODUCT_PACKAGES += \
 # QTI
 TARGET_COMMON_QTI_COMPONENTS := \
    bt \
-   perf
+   perf \
+   wfd
 
 # QTI Performance
 PRODUCT_COPY_FILES += \
